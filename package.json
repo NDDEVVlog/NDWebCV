@@ -1,0 +1,23 @@
+{
+  "name": "ndwebcv",
+  "version": "1.0.0",
+  "description": "A simple website hosted on GitHub Pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [
+    "github-pages",
+    "website",
+    "portfolio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "serve": "^14.2.4"
+  },
+  "homepage": "https://NDDEVVlog.github.io/NDWebCV"
+}
