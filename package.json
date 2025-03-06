@@ -1,12 +1,16 @@
 {
   "name": "ndwebcv",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "private": true,
   "description": "A simple website hosted on GitHub Pages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serve",
-    "deploy": "gh-pages -d ."
+    "test": "react-scripts test",
+    "start": "react-scripts start",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
   },
   "keywords": [
     "github-pages",
@@ -19,5 +23,27 @@
     "gh-pages": "^6.3.0",
     "serve": "^14.2.4"
   },
-  "homepage": "https://NDDEVVlog.github.io/NDWebCV"
+  "homepage": "https://NDDEVVlog.github.io/NDWebCV",
+  "dependencies": {
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

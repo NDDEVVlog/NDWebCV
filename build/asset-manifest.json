@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NDWebCV/static/css/main.e6c13ad2.css",
+    "main.js": "/NDWebCV/static/js/main.be86cc1c.js",
+    "index.html": "/NDWebCV/index.html",
+    "main.e6c13ad2.css.map": "/NDWebCV/static/css/main.e6c13ad2.css.map",
+    "main.be86cc1c.js.map": "/NDWebCV/static/js/main.be86cc1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.be86cc1c.js"
+  ]
+}
